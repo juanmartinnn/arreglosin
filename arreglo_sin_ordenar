@@ -1,0 +1,27 @@
+
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    int tarreglo[10];
+    int n;
+    int j;
+    int temp;
+
+    cout<<" Ingrese numeros  "<<endl;
+    {
+        for(n=0;n<10;n++)
+        {
+            cout<<n+1<<" : ";
+            cin>>tarreglo[n];
+            cout<<endl;
+        }
+    }
+
+    for(n=0;n<10;n++)
+    {
+        cout<<tarreglo[n]<<" ";
+    }
+    return 0;
+}
